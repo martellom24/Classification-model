@@ -25,8 +25,7 @@ campaign: number of contacts performed during this campaign and for this client 
 pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
 previous: number of contacts performed before this campaign and for this client (numeric)
 outcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
-# output variable (desired target):
-y - has the client subscribed a term deposit? (binary: "yes","no")
+output variable (desired target): y - has the client subscribed a term deposit? (binary: "yes","no")
 
 2. What type of analysis you will be performing on the dataset.
 This information was gathered for a marketing effort. Based on the attributes in the dataset, the financial institution wants to know which 
